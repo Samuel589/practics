@@ -39,6 +39,7 @@
 }
 
 .container .content p{
+    padding: 10px;
     font-size: 13px;
 }
 
@@ -181,14 +182,12 @@ cursor: pointer;
     text-transform: initial;
     font-size: 35px;
     font-weight: 700;
+
     
 }
 
 .technology .contentBx h2{
-    color:#0251c0;
-    background: rgb(255, 255, 255);
-    border-radius: 10px;
-    width: 80%;
+    color:#ffffff;
     padding: 10px;
 } 
 
@@ -235,22 +234,212 @@ cursor: pointer;
     text-align: center; 
 }
 
-.testimonials .containert{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 40px;
-    flex-wrap: wrap;
-}
-
-.testimonials .contentBx{
-    display: flex;
-    padding: 10px;
+.contentmx > div{
     background: #ffffff;
+    padding: 2em;
+    height: 250px;
+    text-align: left;
+    font-style: italic;
     
 }
-.testimonials .containert .contentBx div{
-margin: 30px;
-align-items: left;
+
+.contentmx > div h3{
+    font-weight: 900;
+    text-align: end;
+    font-size: 15px;
+    color: rgb(4, 106, 153);
+    
 }
 
+.contentmx div a{
+    text-decoration: none;
+    text-transform: none;
+    color: #0251c0; 
+}
+.contentmx > div:nth-child(odd) {
+    background: #ffffff;
+    color: #000000;
+
+}
+
+.contentmx{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-column-gap: 4em;
+    justify-content: center;
+    align-items: center;
+    
+} 
+
+.testimonials .headingt{
+    padding-bottom: 1.5em;
+    font-size: 35px;
+}
+
+
+.contact{
+    padding: 70px;
+    background: #162c3b;
+    text-align: center;
+}
+
+.image{
+    background: url(bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+}
+
+.about{
+    height: 100vh ;
+}
+
+
+
+.contentax{
+    background: url(red.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+}
+
+.about .contentax .form {
+   margin-top: 90px;
+   margin-left: 150px;
+   
+}
+.about .contentax .form .inputBx{
+margin-bottom: 30px;
+}
+
+.form .inputBx input{
+    width: 80%;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: white;
+    border-bottom: 2px solid white;
+    font-weight: 300;
+    padding: 10px 0;
+
+}
+
+.form .inputBx input::placeholder{
+    color: white;
+}
+
+.form .inputBx textarea::placeholder{
+    color: white;
+    padding-top: 70px;
+    
+}
+
+.form .inputBx textarea{
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none; 
+    color: white;
+    padding: 10px;
+
+}
+
+.form .send input{
+    background: white;
+   
+    color: #000000;
+    width: 20%;
+    padding: 5px;
+}
+
+.form .send input{
+    padding-top: none;
+}
+
+.form .send input:hover{
+    background:url(red.jpg);
+    color: white;
+}
+
+.footer{
+    display: flex;
+    background: #242424;
+    height: 50vh;
+    padding-top: 30px;
+    justify-content: center;
+}
+
+.footer .align{
+align-items: center;
+display: block;
+padding: 20px;
+}
+
+.footer .align h3{
+    text-align: center;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+
+.footer .align ul{
+    padding: 20px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .align ul li{
+padding: 5px;
+align-items: center;
+    justify-content: center;
+    font-weight: lighter;
+
+}
+
+.footer .align ul li a:hover{
+    color: rgb(251, 255, 0);
+}
+
+.footer .align ul li a{
+    text-transform: none;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer .newsletter h3{
+    
+}
+.footer .newsletter p{
+    color: rgb(255, 255, 255);
+    padding-bottom: 20px;
+}
+
+.footer .newsletter{
+    padding-left: 20px;
+    color: white;
+}
+.footer .newsletter input{
+   width: 20em;
+   height: 30px;
+   border-radius: 10px;
+   border: 1px solid rgb(0, 162, 255);
+}
+
+.footer .newsletter input::placeholder{
+padding: 10px;
+
+}
+
+.media ul{
+    display: flex;
+    padding: 20px;
+    list-style: none;
+}
+
+.footer .newsletter ul li a img{
+    max-width: 10px;
+}
