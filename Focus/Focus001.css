@@ -1,0 +1,256 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #3475ca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.25
+}
+
+.container .content{
+    position: relative;
+    max-width: 750px;
+    text-align: center;
+    color: aliceblue;
+
+}
+.container .content h2{
+    font-size: 80px;
+    text-transform: none;
+}
+
+.container .content p{
+    font-size: 13px;
+}
+
+.container header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+
+}
+
+.container header a{
+    text-decoration: none;
+    text-transform: none;
+    color: azure;
+    font-size: 28px;
+    letter-spacing:1px;
+}
+
+.container header .menu{
+position: relative;
+width: 37px;
+height: 27px;
+background: url(toggle.png);
+background-size: cover;
+cursor: pointer;
+}
+
+
+.about {
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+.about .contentabt{
+    background-color: rgb(31, 31, 31);
+    padding: 100px;
+    width: 50%;
+    color: #ffffff;
+}
+
+.heading {
+    color:#ffffff;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.headings {
+    color:#000000;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.about .imgBx{
+    background: url(window.jpg);
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+.services{
+    background: #12222d;
+    padding: 100px;
+    text-align: center;
+}
+
+.services .containersub {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.services .containersub .serviceBx{
+    border-radius: 10px;
+    position: relative;
+    background: #ffffff;
+    width: 300px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services .containersub .serviceBx:hover{
+    width: 350px;
+    height: 400px;
+    background: #27a9ff;
+}
+
+.text{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.text1{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.services .containersub .serviceBx img{
+ max-width: 150px;
+    
+}
+.services .containersub .serviceBx h2{
+    font-size: 30px;
+    font-weight: 1000;
+    text-transform: capitalize;
+}
+
+.technology{
+    display: flex;
+    padding: 100px;
+    padding-top: 300px;
+    margin-top: -300px;
+    width: 100%;
+    background: #0251c0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headings {
+    padding-bottom: 20px;
+    text-transform: initial;
+    font-size: 35px;
+    font-weight: 700;
+    
+}
+
+.technology .contentBx h2{
+    color:#0251c0;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 80%;
+    padding: 10px;
+} 
+
+.technology .contentBx{
+    max-width: 800px;
+}
+
+.technology .imgBX{
+    max-width: 250px;
+}
+
+.technology .imgBX img{
+   max-width: 100%;
+}
+
+.client {
+    background: #12222d;
+    padding: 100px;
+    text-align: center;
+}
+
+.client.imgBX{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.client .imgBX img{
+    max-width: 200px;
+    margin: 20px;
+    opacity: 0.25;
+    cursor: pointer;
+}
+
+.client .imgBX img:hover{
+    opacity: 1;
+}
+
+.testimonials{ 
+    position: relative;
+    padding: 100px;
+    background: #e48900;
+    text-align: center; 
+}
+
+.testimonials .containert{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.testimonials .contentBx{
+    display: flex;
+    padding: 10px;
+    background: #ffffff;
+    
+}
+.testimonials .containert .contentBx div{
+margin: 30px;
+align-items: left;
+}
+
